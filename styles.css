@@ -83,7 +83,7 @@ p {
 #header .header {
   min-height: 8vh;
   background-color: rgb(2, 0, 36);
-  transition: 0.5s ease background-color;
+  transition: 0.3s ease background-color;
 }
 #header .nav-bar {
   display: flex;
@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(./images/img1.jpg);
+  background-image: url(./images/img5.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
