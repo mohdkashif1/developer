@@ -204,7 +204,6 @@ p {
   background-size: cover;
   background-position: center;
   position: relative;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: 1;
 }
@@ -326,6 +325,10 @@ p {
   color: white;
   text-align: left;
 }
+#services em {
+  color: #005691;
+  font-weight: bold;
+}
 /* End Services Section */
 
 /* Projects section */
@@ -438,12 +441,8 @@ p {
 }
 #about .col-left .about-img {
   height: 100%;
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   position: relative;
-
   border: 10px solid white;
 }
 #about .col-left .about-img::after {
